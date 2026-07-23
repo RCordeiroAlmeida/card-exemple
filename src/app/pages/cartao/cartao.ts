@@ -42,7 +42,7 @@ saveContact(): void {
     'N:seu sobrenome;seu nome;;;',
     'ORG:sua marca',
     'TITLE:sua profissão',
-    'TEL;TYPE=CELL:+5511952434927',
+    'TEL;TYPE=CELL:+5511952793798',
     'URL:https://uicard.com.br',
     'END:VCARD'
   ].join('\n');
@@ -58,6 +58,6 @@ saveContact(): void {
 
 sendWhatsapp(): void {
   const msg = encodeURIComponent('Olá! Vi seu cartão digital e gostaria de falar com você.');
-  window.open(`https://wa.me/5511952434927?text=${msg}`, '_blank');
+  window.open(`https://wa.me/5511952793798?text=${msg}`, '_blank');
 }
 }
